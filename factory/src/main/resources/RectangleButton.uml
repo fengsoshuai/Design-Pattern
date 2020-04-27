@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.feng.pattern.button.entity.RectangleButton</OriginalElement>
+  <nodes>
+    <node x="0.0" y="328.0">org.feng.pattern.button.entity.RoundButton</node>
+    <node x="302.0" y="111.0">org.feng.pattern.button.factory.RectangleButtonFactory</node>
+    <node x="151.0" y="0.0">org.feng.pattern.button.AbstractButtonFactory</node>
+    <node x="88.25" y="217.0">org.feng.pattern.button.AbstractButton</node>
+    <node x="178.0" y="328.0">org.feng.pattern.button.entity.RectangleButton</node>
+    <node x="0.0" y="111.0">org.feng.pattern.button.factory.RoundButtonFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.feng.pattern.button.entity.RoundButton" target="org.feng.pattern.button.AbstractButton">
+      <point x="0.0" y="-17.5" />
+      <point x="79.0" y="303.0" />
+      <point x="131.25" y="303.0" />
+      <point x="-43.0" y="30.5" />
+    </edge>
+    <edge source="org.feng.pattern.button.entity.RectangleButton" target="org.feng.pattern.button.AbstractButton">
+      <point x="0.0" y="-17.5" />
+      <point x="269.5" y="303.0" />
+      <point x="217.25" y="303.0" />
+      <point x="43.0" y="30.5" />
+    </edge>
+    <edge source="org.feng.pattern.button.factory.RectangleButtonFactory" target="org.feng.pattern.button.AbstractButtonFactory">
+      <point x="0.0" y="-30.5" />
+      <point x="443.0" y="86.0" />
+      <point x="362.5" y="86.0" />
+      <point x="70.5" y="30.5" />
+    </edge>
+    <edge source="org.feng.pattern.button.factory.RoundButtonFactory" target="org.feng.pattern.button.AbstractButtonFactory">
+      <point x="0.0" y="-30.5" />
+      <point x="141.0" y="86.0" />
+      <point x="221.5" y="86.0" />
+      <point x="-70.5" y="30.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="76.0" y="157.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
