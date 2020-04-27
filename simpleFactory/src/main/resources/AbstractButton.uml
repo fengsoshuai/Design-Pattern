@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.feng.pattern.button.AbstractButton</OriginalElement>
+  <nodes>
+    <node x="228.0" y="111.0">org.feng.pattern.button.impl.RectangleButtonImpl</node>
+    <node x="0.0" y="217.0">org.feng.pattern.button.ButtonFactory</node>
+    <node x="463.0" y="111.0">org.feng.pattern.button.impl.RoundButtonImpl</node>
+    <node x="249.5" y="0.0">org.feng.pattern.button.AbstractButton</node>
+    <node x="0.0" y="111.0">org.feng.pattern.button.impl.DiamondButtonImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.feng.pattern.button.impl.RectangleButtonImpl" target="org.feng.pattern.button.AbstractButton">
+      <point x="0.0" y="-30.5" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="org.feng.pattern.button.impl.RoundButtonImpl" target="org.feng.pattern.button.AbstractButton">
+      <point x="0.0" y="-30.5" />
+      <point x="558.0" y="86.0" />
+      <point x="392.83333333333337" y="86.0" />
+      <point x="57.33333333333337" y="30.5" />
+    </edge>
+    <edge source="org.feng.pattern.button.impl.DiamondButtonImpl" target="org.feng.pattern.button.AbstractButton">
+      <point x="0.0" y="-30.5" />
+      <point x="104.0" y="86.0" />
+      <point x="278.1666666666667" y="86.0" />
+      <point x="-57.333333333333314" y="30.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="78.0" y="-6.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
