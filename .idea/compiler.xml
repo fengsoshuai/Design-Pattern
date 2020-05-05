@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="abstractFactory" />
+        <module name="adapter" />
+        <module name="builder" />
+        <module name="factory" />
+        <module name="prototype" />
+        <module name="simpleFactory" />
+        <module name="singleton" />
+        <module name="summary" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="abstractFactory" target="1.8" />
+      <module name="adapter" target="1.8" />
+      <module name="builder" target="1.8" />
+      <module name="factory" target="1.8" />
+      <module name="prototype" target="1.8" />
+      <module name="simpleFactory" target="1.8" />
+      <module name="singleton" target="1.8" />
+      <module name="summary" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
