@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.feng.pattern.decorator.AbstractDecorator</OriginalElement>
+  <nodes>
+    <node x="205.75" y="0.0">org.feng.pattern.decorator.Component</node>
+    <node x="0.0" y="435.0">org.feng.pattern.decorator.Client</node>
+    <node x="0.0" y="276.0">org.feng.pattern.decorator.ConcreteDecorator</node>
+    <node x="2.5" y="111.0">org.feng.pattern.decorator.AbstractDecorator</node>
+    <node x="342.5" y="138.0">org.feng.pattern.decorator.ConcreteComponent</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.feng.pattern.decorator.AbstractDecorator" target="org.feng.pattern.decorator.Component">
+      <point x="0.0" y="-57.5" />
+      <point x="162.5" y="86.0" />
+      <point x="256.0" y="86.0" />
+      <point x="-50.25" y="30.5" />
+    </edge>
+    <edge source="org.feng.pattern.decorator.ConcreteComponent" target="org.feng.pattern.decorator.Component">
+      <point x="0.0" y="-30.5" />
+      <point x="450.0" y="86.0" />
+      <point x="356.5" y="86.0" />
+      <point x="50.25" y="30.5" />
+    </edge>
+    <edge source="org.feng.pattern.decorator.ConcreteDecorator" target="org.feng.pattern.decorator.AbstractDecorator">
+      <point x="0.0" y="-57.0" />
+      <point x="0.0" y="57.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="217.5" y="253.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
